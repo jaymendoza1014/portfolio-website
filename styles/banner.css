@@ -1,0 +1,29 @@
+.top-banner {
+    background-color: rgb(109, 127, 109);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding-left: 50px;
+    padding-right: 60px;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    margin-bottom: 75px;
+
+}
+
+.banner-link {
+    display: flex;
+    justify-content: end;
+    gap: 40px;
+}
+
+.button{
+    opacity: .015s;
+}
+
+.button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

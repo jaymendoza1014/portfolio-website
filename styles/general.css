@@ -1,0 +1,17 @@
+
+p {
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+body {
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding-bottom: 100px ;
+}

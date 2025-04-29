@@ -1,0 +1,37 @@
+
+.skills-header {
+        margin-top: 50px;
+        padding-top: 20px;
+        font-family: "Special Gothic Expanded One", sans-serif;
+        text-align: center;
+        font-size: 30px;
+        color: rgb(109, 127, 109);
+        padding-bottom: 15px;
+}
+
+.skills {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+    color: whitesmoke;
+    font-family: "Special Gothic Expanded One", sans-serif;
+}
+
+.skill-type{
+    padding-bottom: 15px;
+}
+
+.skill-box {
+    height: 250px;
+    width: 250px;
+    background-color: rgb(109, 127, 109);
+    padding:20px;
+    border-radius: 5px;
+}
+
+
+
+
