@@ -7,23 +7,40 @@
     align-items: center;
     height: 60px;
     padding-left: 50px;
-    padding-right: 60px;
+    padding-right: 100px;
     font-family: "Special Gothic Expanded One", sans-serif;
-    margin-bottom: 75px;
-
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
 }
 
 .banner-link {
     display: flex;
     justify-content: end;
     gap: 40px;
+    margin-right: 100px;
 }
 
 .button{
-    opacity: .015s;
+    opacity: 1;
+    transition: opacity 0.15s ease;
 }
 
-.button:hover {
-    cursor: pointer;
-    text-decoration: underline;
+a {
+    color: white;
 }
+  
+.button a, .button a:visited {
+    color: white; 
+    padding: 10px 20px;
+    transition: color 0.3s ease; 
+  }
+
+
+  .button a:hover {
+    text-decoration: underline;
+  }
+
+  
