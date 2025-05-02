@@ -29,11 +29,11 @@
 }
 
 a {
-    color: white;
+    color: rgb(255, 255, 255); 
 }
   
 .button a, .button a:visited {
-    color: white; 
+    color: rgb(255, 255, 255); 
     padding: 10px 20px;
     transition: color 0.3s ease; 
   }
