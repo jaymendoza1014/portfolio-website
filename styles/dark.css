@@ -1,0 +1,71 @@
+/* Dark theme: loaded last so it overrides the base styles */
+:root {
+    --bg: #0d1117;
+    --surface: #151b23;
+    --surface-raised: #1b222c;
+    --border: #2a313c;
+    --text: #e6edf3;
+    --text-muted: #9da7b3;
+    --accent: #8fa8c8;
+    --accent-strong: #b8c8de;
+}
+
+html { color-scheme: dark; }
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+}
+
+p { color: var(--text-muted); line-height: 1.6; }
+
+/* Top banner */
+.top-banner {
+    background-color: rgba(13, 17, 23, 0.85);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--border);
+    color: var(--text);
+    box-sizing: border-box;
+}
+.button a, .button a:visited { color: var(--text); }
+.button a:hover { color: var(--accent-strong); }
+
+/* Headings */
+.greeting,
+.project-header,
+.project-subject-header,
+.skills-header,
+.socials-header { color: var(--accent); }
+
+/* Intro */
+.headshot {
+    box-shadow: 0 0 0 3px var(--border), 0 10px 30px rgba(0, 0, 0, 0.6);
+}
+.bio p { max-width: 760px; margin-left: auto; margin-right: auto; }
+
+/* Project cards */
+.project-preview {
+    background-color: var(--surface);
+    border: 1px solid var(--border);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+}
+.project-preview:hover {
+    border-color: var(--accent);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+}
+a, a:visited, a:active { color: var(--text); }
+.project-description { color: var(--text); }
+.project-description p { color: var(--text-muted); }
+
+/* Skills */
+.skills { color: var(--text); }
+.skill-box {
+    background-color: var(--surface-raised);
+    border: 1px solid var(--border);
+    border-top: 3px solid var(--accent);
+}
+.skill-type { color: var(--accent-strong); }
+
+/* Social icons: recolor the green PNGs to the steel-blue accent (no hover color change) */
+.social-icon { filter: grayscale(1) brightness(1.35) sepia(0.4) hue-rotate(178deg) saturate(1.5); }
